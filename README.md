@@ -62,7 +62,7 @@ pytest: **8 passed**.
 ## Limitations
 - 75 rows from one author. That's far too small for a statistically meaningful benchmark (held-out n=18, so ±~20 pp). Treat it as a seed set.
 - Lexicon rules are easy to evade: synonyms, typos ("ignor kr"), transliteration variants, or splitting an attack across turns.
-- **Not yet compared** against pytector, Llama Guard, or a fine-tuned multilingual model (e.g. MuRIL/IndicBERT). The box had no GPU and not enough free RAM, so those numbers aren't reported rather than guessed. That's the next step.
+- **Not yet compared** against pytector, Llama Guard, or a fine-tuned multilingual model (e.g. MuRIL/IndicBERT). My lab machine had no GPU and not enough free RAM, so those numbers aren't reported rather than guessed. That's the next step.
 - Indirect injection (instructions hidden in retrieved documents) is out of scope here. See my RAG red-team harness.
 - Only Hindi and Marathi Devanagari plus Latin script. No Bengali, Tamil, etc.
 
