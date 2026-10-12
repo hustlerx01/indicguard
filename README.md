@@ -1,5 +1,7 @@
 # IndicGuard: prompt-injection detection for Hindi, Hinglish and Marathi
 
+[![CI](https://github.com/hustlerx01/indicguard/actions/workflows/ci.yml/badge.svg)](https://github.com/hustlerx01/indicguard/actions/workflows/ci.yml)
+
 > **Lab project.** The dataset is 75 prompts I wrote by hand (no machine translation). It's small on purpose so it can be read and extended. 
 
 ## Problem
